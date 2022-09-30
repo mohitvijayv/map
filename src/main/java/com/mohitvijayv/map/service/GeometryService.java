@@ -25,7 +25,7 @@ public class GeometryService {
         double cosToLat = cos(toLat);
         double angle = computeAngleBetween(fromLat, fromLng, toLat, toLng);
         double sinAngle = sin(angle);
-        if (sinAngle < 1E-6) {
+        if (sinAngle < 1E-6){
             return from;
         }
         double a = sin((1 - fraction) * angle) / sinAngle;
