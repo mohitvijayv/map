@@ -58,7 +58,7 @@ public class PolylineService {
 
     public static String toString(List<Point> polyline) {
         String str = "[ \n";
-        for( Point p : polyline) {
+        for (Point p : polyline){
             str += p;
         }
         return str + " ]";

@@ -23,16 +23,15 @@ public class HTTPClientService {
         try (CloseableHttpResponse response = httpClient.execute(httpGet)) {
             final int responseCode = response.getStatusLine().getStatusCode();
 
-            if(response.getEntity() != null && responseCode >= 200 &&  responseCode < 300) {
-                return
-                    EntityUtils.toString(response.getEntity());
+            if (response.getEntity() != null && responseCode >= 200 &&  responseCode < 300) {
+                return EntityUtils.toString(response.getEntity());
             }
             else {
                 throw new UnsupportedOperationException(String.format("HTTP POST call returned unexpected  response code:%d", responseCode));
             }
 
         } catch (IOException exception) {
-            throw  new IOException(String.format("Unable to fetch credential from service instance: %s", url), exception);
+            throw new IOException(String.format("Unable to fetch credential from service instance: %s", url), exception);
         }
     }
 }
