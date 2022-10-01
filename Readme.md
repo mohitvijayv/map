@@ -1,4 +1,4 @@
-[![Hits](https://hits.sh/github.com/silentsoft/hits.svg)](https://hits.sh/github.com/mohitvijayv/map/)
+[![Hits](https://hits.sh/github.com/mohitvijayv/map.svg)](https://hits.sh/github.com/mohitvijayv/map/)
 
 # Run Application
 
