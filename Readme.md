@@ -1,5 +1,7 @@
 [![Hits](https://hits.sh/github.com/mohitvijayv/map.svg)](https://hits.sh/github.com/mohitvijayv/map/)
 
+https://img.shields.io/tokei/lines/github/mohitvijayv/map
+
 # Run Application
 
 ## 1. Make sure your java_home is pointing to java 8
