@@ -1,3 +1,5 @@
+[![Hits](https://hits.sh/github.com/silentsoft/hits.svg)](https://hits.sh/github.com/mohitvijayv/map/)
+
 # Run Application
 
 ## 1. Make sure your java_home is pointing to java 8
