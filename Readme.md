@@ -1,4 +1,4 @@
-[![Hits](https://hits.sh/github.com/mohitvijayv/map.svg)](https://hits.sh/github.com/mohitvijayv/map/)    ![Lines](https://img.shields.io/tokei/lines/github/mohitvijayv/map)
+[![Hits](https://hits.sh/github.com/mohitvijayv/map.svg)](https://hits.sh/github.com/mohitvijayv/map/)    ![Lines](https://img.shields.io/tokei/lines/github/mohitvijayv/map)      ![Language](https://img.shields.io/github/languages/count/mohitvijayv/map)
 
 # Run Application
 
