@@ -62,7 +62,7 @@ GET http://localhost:8080/api/directions/equidistant?origin=12.92662,77.63696&de
  # Project Overview
 
  ## Logic
- we traverse along the polyline and find nearest two ponints wrt 50m interval. if point lie exactly on 50m interval then we pass it to equisdistant array, otherwise we take these two nearest points to 50m interval and by using interpolation find point which lies on 50m interval.
+ we traverse along the polyline and find nearest two ponints wrt 50m interval. if point lie exactly on 50m interval then we pass it to equisdistant array, otherwise we take these two nearest points to 50m interval and by using interpolation find point which lies on 50m interval. 
 
 ## Design
 
