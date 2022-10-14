@@ -56,19 +56,19 @@ GET http://localhost:8080/api/directions/equidistant?origin=12.92662,77.63696&de
 12.93077833335361,77.62891305564752
 12.931195000014071,77.62873250006838
 12.931610212778757,77.628542978752
-12.93166,77.62852 
+12.93166,77.62852
  ]
 
  # Project Overview
 
  ## Logic
- we traverse along the polyline and find nearest two ponints wrt 50m interval. if point lie exactly on 50m interval then we pass it to equisdistant array, otherwise we take these two nearest points to 50m interval and by using interpolation find point which lies on 50m interval. 
+ we traverse along the polyline and find nearest two ponints wrt 50m interval. if point lie exactly on 50m interval then we pass it to equisdistant array, otherwise we take these two nearest points to 50m interval and by using interpolation find point which lies on 50m interval.
 
 ## Design
 
  ### Tech stack used
  1. Springboot to expose APIs
- 2. Java 8 
+ 2. Java 8
 
  ### Project Structure
  1. Controller package is created to handle web request.
