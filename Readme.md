@@ -68,7 +68,7 @@ GET http://localhost:8080/api/directions/equidistant?origin=12.92662,77.63696&de
 
  ### Tech stack used
  1. Springboot to expose APIs
- 2. Java 8
+ 2. Java 8 
 
  ### Project Structure
  1. Controller package is created to handle web request.
