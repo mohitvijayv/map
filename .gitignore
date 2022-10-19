@@ -42,6 +42,8 @@ Thumbs.db
 *.iml
 *.ipr
 
+.vs
+
 /target/
 */target/**
 **/META-INF/
