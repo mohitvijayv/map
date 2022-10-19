@@ -29,3 +29,4 @@ public class DirectionController {
         return new ResponseEntity<>(directionService.getPoints(origin, destination), HttpStatus.OK);
     }
 }
+
